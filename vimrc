@@ -4,7 +4,7 @@ filetype plugin indent on
 
 "Information on the following setting can be found with
 ":help set
-set tabstop=4
+set tabstop=2
 set expandtab
 set autoindent 
 set shiftwidth=4  "this is the level of autoindent, adjust to taste
