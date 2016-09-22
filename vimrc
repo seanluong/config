@@ -103,3 +103,15 @@ hi link rubyConditional       Keyword
 hi link rubyInterpolation     Interpolation
 hi link rubyInterpolationDelimiter    Interpolation
 hi link rubyRailsMethod       Method
+
+" Setup for Markdown files (*.md)
+
+augroup markdown
+
+  " remove previous autocmds
+  autocmd!
+
+  " set every new or read *.md buffer to use the markdown filetype 
+  autocmd BufRead,BufNew *.md set filetype=markdown
+
+augroup END
